@@ -4,6 +4,6 @@ Doing my first [NodeJS Dublin](http://nodejsdublin.com) talk - this is the conte
 
 Just in case I get invited back to do another one, I'm intending the split the content up into talk-specific files.
 
-@jun12.html@ contains the slides for the Jun 2012 talk
+`jun12.html` contains the slides for the Jun 2012 talk
 
-@index.html@ contains the original reveal.js stuff so that it can be used as a reference.
+`index.html` contains the original reveal.js stuff so that it can be used as a reference.

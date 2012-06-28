@@ -43,39 +43,171 @@
 				</section>
 				
 				<section>
-					<h2>SCALE</h2>
+				  <section>
+  				  <h2>scale</h2>
+  				  <h2>non-blocking</h2>
+  				  <h2>event-driven</h2>
+  				  <h2>community</h2>
+            <h2>javascript</h2>
+          </section>
+          <section>
+            <image width="500" src="http://fc06.deviantart.net/fs46/f/2009/169/f/4/Unicorn_Pukes_Rainbow_by_Angel35W.jpg">
+          </section>
+        </section>
+        
+				<section>
+				  <section>
+					  <h2>SCALE</h2>
+					  <blockquote cite="http://al3x.net/2010/07/27/node.html">
+					  	In a system of no significant scale, basically anything works.
+					  </blockquote>
+				  	<p>
+					    <br/>
+  				  	<h3>Scaling in the SMALL</h3>
+  					  <h3>Scaling in the LARGE</h3>
+            </p>
+            <br/>
+            <p>
+              <h2 style="color: red">NO</h2>
+            </p>
+          </section>
+          <section>
+            <h2>small</h2>
+            <br/>
+            <p>
+              Incremental improvement to a <em>part</em> of an app
+            </p>
+            <br/>
+            <p>
+              Pick a spot where asynchrony suits - <strong>BAM</strong>
+            </p>
+            <br/>
+            <p>
+              Accessible, immediate solution to early scaling problems
+            </p>
+          </section>
+          <section>
+            <h2>large</h2>
+            <br/>
+            <p>
+              Any single technology is no help overall
+            </p>
+            <br/>
+            <p>
+              It's data and applications specific
+            </p>
+            <br/>
+            <p>
+              No silver bullet
+            </p>
+          </section>
+          <section>
+					  <h2>Links</h2>
+					  <p>
+					    <a href="http://al3x.net/2010/07/27/node.html"">al3x knows the score</a>
+            </p>
+					</section>
 				</section>
 				
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
 						<h2>NON BLOCKING</h2>
-						<a href="#/2/1" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						</a>
+            <br/>
+            <p>
+              Have lots of I/O? Non-blocking is <em>usually</em> good
+            </p>
+            <br/>
+            <p>
+              But blocking I/O will have better throughput - if your server can handle it
+            </p>
+            <br/>
+            <p>
+              Thread-per-request and leader-follower
+            </p>
+						<br/>
+            <p>
+              <h2 style="color: yellow">MAYBE</h2>
+            </p>
+					</section>
+					<section>
+					  <h2>Links</h2>
+					  <p>
+					    <a href="http://www.mailinator.com/tymaPaulMultithreaded.pdf">multithreaded mailinator (pdf)</a>
+            </p>
+					  <p>
+					    <a href="http://www.kegel.com/c10k.html">c10k problem</a>
+					  </p>
 					</section>
 				</section>
 
 				<section>
-					<h2>EVENTED</h2>
+				  <section>
+					  <h2>EVENTED</h2>	
+				  <br/>
+          <p>
+            Events yield performance in many cases
+          </p>
+          <p>
+            Sometimes threads are better for high currency
+          </p>
+          <p>
+            Mix up both
+          </p>
+          <p>
+            SEDA - event-driven application is a set of stages connected by queues
+          </p>
+				  <br/>
+          <p>
+            <h2 style="color: yellow">MAYBE</h2>
+          </p>
+          </section>
+          <section>
+					  <h2>Links</h2>
+					  <p>
+					    <a href="http://static.usenix.org/events/hotos03/tech/full_papers/vonbehren/vonbehren_html/">Why Events are a Bad Idea</a>
+            </p>
+					  <p>
+					    <a href="http://www.stanford.edu/class/cs240/readings/threads-bad-usenix96.pdf">Why Threads are a Bad Idea (pdf)</a>
+					  </p>
+					  <p>
+					    <a href="http://www.eecs.harvard.edu/~mdw/proj/seda/">SEDA Architecture</a>
+				    </p>
+					</section>
 				</section>
 
 				<section>
 					<h2>COMMUNITY</h2>
+					<br>
+					<p>Enthuastic community with solid core philosophy</p>
+					<br/>
+					<p>Good time to be had reinventing to new norms</p>
+					<br/>
+          <p>
+            <h2 style="color: yellow">MAYBE</h2>
+          </p>
 				</section>
 
 				<section>
-					<h2>EXPERIENCE</h2>
+					<h2>Situational</h2>
+					<br/>
+					<p>Two Ruby devs and a deadline?</p>
+					<p>Batch system?</p>
+					<p>Realtime system?</p>
+					<p>CRUD web app?</p>
+					<p>Protein folding?</p>
+					<p>
+            <h2 style="color: red">NO</h2>
+          </p>
 				</section>
 				
 				<section>
-					<h2>HIERARCHY OF NEEDS</h2>
+				  <h2>javascript</h2>
+				  <br/>
+				  <br/>
+				  <h2 style="color: green">If life gives you javascript developers, do node.js</h2>
 				</section>
-				
-				<section>
-					<h2>Links</h2>
-				</section>
-				
+
 				<section>
 					<h1>THE END</h1>
 				</section>
@@ -137,7 +269,7 @@
 				rollingLinks: true,
 
 				// UI style
-				theme: query.theme || 'neon', // default/neon
+				theme: query.theme || 'gravy', // default/neon
 
 				// Transition style
 				transition: query.transition || 'cube' // default/cube/page/concave/linear(2d)

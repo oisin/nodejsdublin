@@ -30,16 +30,106 @@
 			
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+			  <section>
+					<h1>Node.js</h1>
+					<h2>When you do want to use it</h2>
+					<i><small>- <a href="#">Anton Whalley</a> / <a href="http://twitter.com/antonwhalley">@antonwhalley</a></small></i>
+				
+				</section>
+					
+					<script>
+						// Delicously hacky. Look away.
+						if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
+					</script>
+				</section>
+				
+				<section>
+				  
+            <h2>Sweet Spots</h2>
+            <br/>
+  					<ul>
+  						<li>Near Real Time communication systems</li>
+  						<li>High End Single Page Applications</li>
+  						<li>Messaging Systems (We are here!)</li>
+  						<li>More...</li>
+  					</ul>
+				</section>
+				<section>
+						<p>Example Message System</p>
+						
+						<a href="#/2/1" class="image">
+							<img width="450" height="550" src="assets/images/ISDE-TOPOLOGY.PNG">
+						</a>
+				</section>
+				
+				<section>
+						<p>Focus Area - Middleware</p>
+						
+						<a href="#/2/1" class="image">
+							<img width="450" height="550" src="assets/images/ISDE-TOPOLOGY-FOCUS.PNG">
+						</a>
+				</section>
+				
+				<section>
+						<H3>Problemo?</H3>
+						<br/>
+						<p>
+							Request Response Architecture (Wait for all messages)
+						</p>
+						<p>
+							Verbose nature of data and definition (XML)
+						</p>
+						<p>
+							Tooling support
+						</p>
+						<p>
+							Focus on contracts not functionality
+						</p>
+						</ul>
+				</section>
+				<section>
+  			  <section>
+  			    <h3>Aunt Sally</h3>
+  			    <br/>
+  					<p>.Net and Node (Not versus)</p>
+  					<p>Central Server makes two requests of 30000 cached objects on two backend servers</p>
+  					<p>.Net servers used WCF/XML services parsed then served</p>
+  					<p>.Node servers used streamed JSON buffered on the central server</p>
+  					<p>It's really apples and oranges</p>
+  					</section>
+  					<section>
+  					  <img src="assets/images/auntsally.jpg"/>
+            </section>
+				</section>
+				
+				<section>
+						<H3>Some Numbers for XML World</H3>
+						<a href="#/2/1" class="image">
+							<img width="450" height="400" src="assets/images/dotNetRouter.png">
+						</a>
+				</section>
+				<section>
+						<H3>Some Numbers for JSON</H3>
+						<a href="#/2/1" class="image">
+							<img width="450" height="400" src="assets/images/NodeRouter.png">
+						</a>
+				</section>
+				<section>
+						<H3>Where node helps in messaging systems.</H3>
+						<ul>
+							<li>Evented Architecture (Fire Now!)</li>
+							<li>The data is the definition (JSON)</li>
+							<li>Better Polyglotability</li>
+							<li>No longer fitting a problem to an architecture</li>
+						</ul>
+				</section>
+			  
 				<section>
 					<h1>Node.js</h1>
 					<h3 class="inverted">When you don't want to.</h3>
 					<p>
 						<i><small>- <a href="http://converser.io">Ois&iacuten Hurley</a> / <a href="http://twitter.com/oisin">@oisin</a></small></i>
 					</p>
-					<script>
-						// Delicously hacky. Look away.
-						if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
-					</script>
 				</section>
 				
 				<section>
@@ -68,7 +158,7 @@
             </p>
             <br/>
             <p>
-              <h2 style="color: red">NO</h2>
+              <h2 style="color: red" class="fragment">NO</h2>
             </p>
           </section>
           <section>
@@ -127,7 +217,7 @@
             </p>
 						<br/>
             <p>
-              <h2 style="color: yellow">MAYBE</h2>
+              <h2 style="color: green" class="fragment">YES</h2>
             </p>
 					</section>
 					<section>
@@ -159,7 +249,7 @@
           </p>
 				  <br/>
           <p>
-            <h2 style="color: yellow">MAYBE</h2>
+            <h2 style="color: yellow" class="fragment">MAYBE</h2>
           </p>
           </section>
           <section>
@@ -184,7 +274,7 @@
 					<p>Good time to be had reinventing to new norms</p>
 					<br/>
           <p>
-            <h2 style="color: yellow">MAYBE</h2>
+            <h2 style="color: green" class="fragment">YES</h2>
           </p>
 				</section>
 
@@ -197,7 +287,7 @@
 					<p>CRUD web app?</p>
 					<p>Protein folding?</p>
 					<p>
-            <h2 style="color: red">NO</h2>
+            <h2 style="color: red" class="fragment">NO</h2>
           </p>
 				</section>
 				
@@ -205,7 +295,10 @@
 				  <h2>javascript</h2>
 				  <br/>
 				  <br/>
-				  <h2 style="color: green">If life gives you javascript developers, do node.js</h2>
+				  <h2 style="color: #01B737">If life gives you javascript developers, do node.js</h2>
+				  <br/>
+				  <br/>
+					<h2 style="color: #01B737" class="fragment">;-)</h2>
 				</section>
 
 				<section>

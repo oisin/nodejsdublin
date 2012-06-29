@@ -6,8 +6,8 @@
 		
 		<title>reveal.js</title>
 
-		<meta name="description" content="An easy to use CSS 3D slideshow tool for quickly creating good looking HTML presentations.">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="NodeJS Dublin Presentation June 2012">
+		<meta name="author" content="Oisin Hurley">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -30,9 +30,15 @@
 			
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>Reveal.js</h1>
-					<h3 class="inverted">CSS 3D Presentations</h3>
+			  <section>
+					<h1>Node.js</h1>
+					<h2>When you do want to use it</h2>
+					<i><small>- <a href="#">Anton Whalley</a> / <a href="http://twitter.com/antonwhalley">@antonwhalley</a></small></i>
+				  <br/>
+				  <br/>
+				  <i><small>slides @ <a href="https://github.com/oisin/nodejsdublin">https://github.com/oisin/nodejsdublin</a></small></i>
+				</section>
+					
 					<script>
 						// Delicously hacky. Look away.
 						if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
@@ -40,209 +46,265 @@
 				</section>
 				
 				<section>
-					<h2>Heads Up</h2>
+				  
+            <h2>Sweet Spots</h2>
+            <br/>
+  					<ul>
+  						<li>Near Real Time communication systems</li>
+  						<li>High End Single Page Applications</li>
+  						<li>Messaging Systems (We are here!)</li>
+  						<li>More...</li>
+  					</ul>
+				</section>
+				<section>
+						<p>Example Message System</p>
+						
+						<a href="#/2/1" class="image">
+							<img width="450" height="550" src="assets/images/ISDE-TOPOLOGY.PNG">
+						</a>
+				</section>
+				
+				<section>
+						<p>Focus Area - Middleware</p>
+						
+						<a href="#/2/1" class="image">
+							<img width="450" height="550" src="assets/images/ISDE-TOPOLOGY-FOCUS.PNG">
+						</a>
+				</section>
+				
+				<section>
+						<H3>Problemo?</H3>
+						<br/>
+						<p>
+							Request Response Architecture (Wait for all messages)
+						</p>
+						<p>
+							Verbose nature of data and definition (XML)
+						</p>
+						<p>
+							Tooling support
+						</p>
+						<p>
+							Focus on contracts not functionality
+						</p>
+						</ul>
+				</section>
+				<section>
+  			  <section>
+  			    <h3>Aunt Sally</h3>
+  			    <br/>
+  					<p>.Net and Node (Not versus)</p>
+  					<p>Central Server makes two requests of 30000 cached objects on two backend servers</p>
+  					<p>.Net servers used WCF/XML services parsed then served</p>
+  					<p>.Node servers used streamed JSON buffered on the central server</p>
+  					<p>It's really apples and oranges</p>
+  					</section>
+  					<section>
+  					  <img src="assets/images/auntsally.jpg"/>
+            </section>
+				</section>
+				
+				<section>
+						<H3>Some Numbers for XML World</H3>
+						<a href="#/2/1" class="image">
+							<img width="450" height="400" src="assets/images/dotNetRouter.png">
+						</a>
+				</section>
+				<section>
+						<H3>Some Numbers for JSON</H3>
+						<a href="#/2/1" class="image">
+							<img width="450" height="400" src="assets/images/NodeRouter.png">
+						</a>
+				</section>
+				<section>
+						<H3>Where node helps in messaging systems.</H3>
+						<ul>
+							<li>Evented Architecture (Fire Now!)</li>
+							<li>The data is the definition (JSON)</li>
+							<li>Better Polyglotability</li>
+							<li>No longer fitting a problem to an architecture</li>
+						</ul>
+				</section>
+			  
+				<section>
+					<h1>Node.js</h1>
+					<h3 class="inverted">When you don't want to.</h3>
 					<p>
-						reveal.js is an easy to use, HTML based, presentation tool. You'll need a modern browser with 
-						support for CSS 3D transforms to see it in its full glory.
+						<i><small>- <a href="http://converser.io">Ois&iacuten Hurley</a> / <a href="http://twitter.com/oisin">@oisin</a></small></i>
 					</p>
-					<p>
-						<i><small>- <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small></i>
-					</p>
+				</section>
+				
+				<section>
+				  <section>
+  				  <h2>scale</h2>
+  				  <h2>non-blocking</h2>
+  				  <h2>event-driven</h2>
+  				  <h2>community</h2>
+            <h2>javascript</h2>
+          </section>
+          <section>
+            <image width="500" src="http://fc06.deviantart.net/fs46/f/2009/169/f/4/Unicorn_Pukes_Rainbow_by_Angel35W.jpg">
+          </section>
+        </section>
+        
+				<section>
+				  <section>
+					  <h2>SCALE</h2>
+					  <blockquote cite="http://al3x.net/2010/07/27/node.html">
+					  	In a system of no significant scale, basically anything works.
+					  </blockquote>
+				  	<p>
+					    <br/>
+  				  	<h3>Scaling in the SMALL</h3>
+  					  <h3>Scaling in the LARGE</h3>
+            </p>
+            <br/>
+            <p>
+              <h2 style="color: red" class="fragment">NO</h2>
+            </p>
+          </section>
+          <section>
+            <h2>small</h2>
+            <br/>
+            <p>
+              Incremental improvement to a <em>part</em> of an app
+            </p>
+            <br/>
+            <p>
+              Pick a spot where asynchrony suits - <strong>BAM</strong>
+            </p>
+            <br/>
+            <p>
+              Accessible, immediate solution to early scaling problems
+            </p>
+          </section>
+          <section>
+            <h2>large</h2>
+            <br/>
+            <p>
+              Any single technology is no help overall
+            </p>
+            <br/>
+            <p>
+              It's data and applications specific
+            </p>
+            <br/>
+            <p>
+              No silver bullet
+            </p>
+          </section>
+          <section>
+					  <h2>Links</h2>
+					  <p>
+					    <a href="http://al3x.net/2010/07/27/node.html"">al3x knows the score</a>
+            </p>
+					</section>
 				</section>
 				
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,<br/>
-							try pressing <a href="#/2/1">down</a>.
-						</p>
-						<a href="#/2/1" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						</a>
+						<h2>NON BLOCKING</h2>
+            <br/>
+            <p>
+              Have lots of I/O? Non-blocking is <em>usually</em> good
+            </p>
+            <br/>
+            <p>
+              But blocking I/O will have better throughput - if your server can handle it
+            </p>
+            <br/>
+            <p>
+              Thread-per-request and leader-follower
+            </p>
+						<br/>
+            <p>
+              <h2 style="color: green" class="fragment">YES</h2>
+            </p>
 					</section>
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" style="-webkit-transform: rotate(180deg);">
-						</a>
+					  <h2>Links</h2>
+					  <p>
+					    <a href="http://www.mailinator.com/tymaPaulMultithreaded.pdf">multithreaded mailinator (pdf)</a>
+            </p>
+					  <p>
+					    <a href="http://www.kegel.com/c10k.html">c10k problem</a>
+					  </p>
 					</section>
 				</section>
 
 				<section>
-					<h2>Holistic Overview</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview!
-					</p>
-				</section>
-
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides pinch your way to the overview.
-					</p>
-				</section>
-
-				<section>
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like:
-					</p>
-					<ul>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=cube">Cube</a></li>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=page">Page</a></li>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=concave">Concave</a></li>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=linear">Linear</a></li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Marvelous Unordered List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-				
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<section data-state="alert">
-						<h2>Global State</h2>
-						<p>
-							Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-							will be added as a class to the document element when the slide is open. This let's you
-							apply broader style changes, like switching the background.
-						</p>
-						<a href="#/7/1" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						</a>
-					</section>
-					<section data-state="blackout">
-						<h2>"blackout"</h2>
-						<a href="#/7/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						</a>
-					</section>
-					<section data-state="soothe">
-						<h2>"soothe"</h2>
-						<a href="#/7/0" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" style="-webkit-transform: rotate(180deg);">
-						</a>
+				  <section>
+					  <h2>EVENTED</h2>	
+				  <br/>
+          <p>
+            Events yield performance in many cases
+          </p>
+          <p>
+            Sometimes threads are better for high currency
+          </p>
+          <p>
+            Mix up both
+          </p>
+          <p>
+            SEDA - event-driven application is a set of stages connected by queues
+          </p>
+				  <br/>
+          <p>
+            <h2 style="color: yellow" class="fragment">MAYBE</h2>
+          </p>
+          </section>
+          <section>
+					  <h2>Links</h2>
+					  <p>
+					    <a href="http://static.usenix.org/events/hotos03/tech/full_papers/vonbehren/vonbehren_html/">Why Events are a Bad Idea</a>
+            </p>
+					  <p>
+					    <a href="http://www.stanford.edu/class/cs240/readings/threads-bad-usenix96.pdf">Why Threads are a Bad Idea (pdf)</a>
+					  </p>
+					  <p>
+					    <a href="http://www.eecs.harvard.edu/~mdw/proj/seda/">SEDA Architecture</a>
+				    </p>
 					</section>
 				</section>
 
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
+				<section>
+					<h2>COMMUNITY</h2>
+					<br>
+					<p>Enthuastic community with solid core philosophy</p>
+					<br/>
+					<p>Good time to be had reinventing to new norms</p>
+					<br/>
+          <p>
+            <h2 style="color: green" class="fragment">YES</h2>
+          </p>
+				</section>
+
+				<section>
+					<h2>Situational</h2>
+					<br/>
+					<p>Two Ruby devs and a deadline?</p>
+					<p>Batch system?</p>
+					<p>Realtime system?</p>
+					<p>CRUD web app?</p>
+					<p>Protein folding?</p>
 					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code contenteditable style="font-size: 18px; margin-top: 20px;">Reveal.addEventListener( 'customevent', function() {
-	alert( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						The nice thing about standards is that there are so many to choose from</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						For years there has been a theory that millions of monkeys typing at random on millions of typewriters would 
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.
-					</blockquote>
+            <h2 style="color: red" class="fragment">NO</h2>
+          </p>
 				</section>
 				
 				<section>
-					<h2>Pretty Code</h2>
-					<pre><code contenteditable>
-var supports3DTransforms =  document.body.style['webkitPerspective'] !== undefined || 
-				document.body.style['MozPerspective'] !== undefined ||
-				document.body.style['perspective'] !== undefined;
-
-function linkify( selector ) {
-    if( supports3DTransforms ) {
-        
-        var nodes = document.querySelectorAll( selector );
-
-        for( var i = 0, len = nodes.length; i < len; i++ ) {
-            var node = nodes[i];
-
-            if( !node.className || !node.className.match( /roll/g ) ) {
-                node.className += ' roll';
-                node.innerHTML = '<span data-title="'+ node.text +'">' + node.innerHTML + '</span>';
-            }
-        };
-    }
-}
-
-linkify( 'a' );
-					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-				
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,<br/>
-						<a href="#/2/3">like this</a>.
-					</p>
+				  <h2>javascript</h2>
+				  <br/>
+				  <br/>
+				  <h2 style="color: #01B737">If life gives you javascript developers, do node.js</h2>
+				  <br/>
+				  <br/>
+					<h2 style="color: #01B737" class="fragment">;-)</h2>
 				</section>
 
-				<section>
-					<h2>Fragmented Views</h2>
-					<p>Hit the next arrow...</p>
-					<p class="fragment">... to step through ...</p>
-					<ol>
-						<li class="fragment"><code>any type</code></li>
-						<li class="fragment"><em>of view</em></li>
-						<li class="fragment"><strong>fragments</strong></li>
-					</ol>
-				</section>
-				
-				<section>
-					<h2>Spectacular image!</h2>
-					<a class="image" href="http://hakim.se/experiments/html5/breakdom/" target="_blank">
-						<img width="320" height="412" src="https://s3.amazonaws.com/hakim-static/reveal-js/breakdom.png">
-					</a>
-				</section>
-				
-				<section>
-					<h2>Stellar Links</h2>
-					<ul>
-						<li><a href="https://github.com/hakimel/reveal.js">Source code on github</a></li>
-						<li><a href="http://hakim.se/projects/reveal-js">Read more on my site</a></li>
-						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
-					</ul>
-				</section>
-				
 				<section>
 					<h1>THE END</h1>
-					<h3 class="inverted">BY Hakim El Hattab / hakim.se</h3>
 				</section>
 			</div>
 
@@ -302,10 +364,10 @@ linkify( 'a' );
 				rollingLinks: true,
 
 				// UI style
-				theme: query.theme || 'default', // default/neon
+				theme: query.theme || 'gravy', // default/neon
 
 				// Transition style
-				transition: query.transition || 'default' // default/cube/page/concave/linear(2d)
+				transition: query.transition || 'cube' // default/cube/page/concave/linear(2d)
 			});
 
 			hljs.initHighlightingOnLoad();

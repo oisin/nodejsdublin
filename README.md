@@ -7,3 +7,5 @@ Just in case I get invited back to do another one, I'm intending the split the c
 `jun12.html` contains the slides for the Jun 2012 talk
 
 `reveal-examples.html` contains the original reveal.js stuff so that it can be used as a reference.
+
+You can view the presentation [here](http://oisin.github.com/nodejsdublin).
